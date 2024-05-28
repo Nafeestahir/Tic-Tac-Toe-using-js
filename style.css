@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 14px;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Games {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 18%;
+}
+
+button.box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 10px;
+    color: red;
+    font-size: 75px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(97 116 14);
+}
+
+button#reset-btn {
+    padding: 15px;
+    font-size: 19px;
+    margin-top: 26px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.hide-cont {
+    display: none;
+}
+
+button.new-btn {
+    padding: 13px;
+    font-size: 19px;
+    color: red;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+p.Game-res {
+    color: red;
+    font-size: 49px;
+    padding-top: 45px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
